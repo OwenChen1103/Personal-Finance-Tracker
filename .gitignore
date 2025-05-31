@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Vite / React
+dist/
+.env
+.DS_Store
+
+# .NET build artifacts
+bin/
+obj/
