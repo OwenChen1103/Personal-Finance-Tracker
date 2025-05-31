@@ -31,3 +31,27 @@ A modern and responsive web app for managing personal finances. Easily track you
 ```bash
 git clone https://github.com/OwenChen1103/Personal-Finance-Tracker.git
 cd Personal-Finance-Tracker
+
+### 2. Install dependencies
+
+```bash
+npm install
+cd finance-tracker-frontend
+npm install
+cd ../finance-tracker-backend/FinanceTracker.Api
+dotnet restore
+```
+
+### 3. Run the project
+
+```bash
+npm start
+```
+
+This command will:
+
+- Start the **frontend** at [http://localhost:5173](http://localhost:5173)
+- Start the **backend** at [http://localhost:5013](http://localhost:5013)
+
+> This is made possible by the `start` script in the root `package.json`, which uses `concurrently` to launch both services at once.
+
