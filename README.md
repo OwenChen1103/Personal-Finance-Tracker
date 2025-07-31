@@ -1,4 +1,4 @@
-# 💸 Personal Finance Tracker
+# Personal Finance Tracker
 
 A modern and responsive web app for managing personal finances. Easily track your income and expenses by category, add notes to each transaction, and visualize spending with pie charts.
 
